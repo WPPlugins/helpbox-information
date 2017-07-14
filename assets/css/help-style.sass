@@ -1,0 +1,52 @@
+#helpMainContainer
+	.helpFloat
+		top: 100px
+		right: -270px
+		position: absolute
+		transition: all 0.5s ease-in-out
+	.helpBtn
+		background-color: orangered
+		font-weight: 300
+		color: white
+		font-family: arial
+		width: 50px
+		height: 50px
+		text-align: center
+		line-height: 50px
+		font-size: 25px
+		border-top-left-radius: 25px
+		border-bottom-left-radius: 25px
+		position: absolute
+		left: -52px
+		top: 1px
+
+
+
+	#sidebarcheck
+		display: none
+		&:checked ~ .helpFloat
+			right: 0px
+
+	.helpContainer
+		width: 100%
+		max-width: 300px
+		height: auto
+		border: solid #f4f4f4 1px
+		margin: 0
+		padding: 0
+		ul, li, p
+			margin: 0
+			padding: 0px
+			list-style: none
+
+			h4
+				font-family: arial
+				margin: 0
+				padding: 5px
+				background-color: orangered
+				color: white
+			p 
+				font-family: arial
+				margin: 0 0 10px
+				padding: 5px
+				font-size: 14px
